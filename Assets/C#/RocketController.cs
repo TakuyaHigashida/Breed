@@ -36,7 +36,7 @@ public class RocketController : MonoBehaviour
 
 		transform.position = new Vector2(
 	//ƒGƒŠƒAŽw’è‚µ‚ÄˆÚ“®‚·‚é
-	Mathf.Clamp(transform.position.x + moveX, -8.5f, 8.5f),
+	Mathf.Clamp(transform.position.x + moveX, -8.5f, 2.0f),
 	Mathf.Clamp(transform.position.y + moveY, -4.5f, 4.5f)
 	);
 
